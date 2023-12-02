@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/vim,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,python
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -185,4 +181,5 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,python
+### vscode ###
+.vscode/*
