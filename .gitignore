@@ -183,3 +183,6 @@ tags
 
 ### vscode ###
 .vscode/*
+
+### Apple ###
+.DS_Store
