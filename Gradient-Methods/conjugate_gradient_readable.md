@@ -176,7 +176,7 @@ With the experience from Gram-Schmidt Orthogonalization, we should be able to de
 d_{(i)}=u_i+\sum_{k=1}^{i-1}\beta_{ik}d_{(k)},
 ```
 
-where $`i>k`$. To obtain $`\beta_{ik}`$, we use the A-orthogonalitty between $`d_{(i)}`$ and any previous vector $`d_{(j)}`$ where $`j<i`$
+where $`i>k`$. To obtain $`\beta_{ik}`$, we use the A-orthogonalitty between $`d_{(i)}`$ and any previous vector $`d_{(j)}`$ where $`j\lt i`$
 
 ```math
 d_{(i)}^TAd_{(j)}=u_i^TAd_{(j)}+\sum_{k=1}^{i-1}\beta_{ik}d_{(k)}^TAd_{(j)}=u_i^TAd_{(j)}+\beta_{ij}d^T_{(j)}Ad_{(j)}=0,
@@ -225,7 +225,7 @@ This means for some fixed $`i`$, only one $`j`$ index, $`j=i-1`$, results in non
 \beta_{(i)}=\frac{r_{(i)}^Tr_{(i)}}{d_{(i-1)}^Tr_{(i-1)}}=\frac{r_{(i)}^Tr_{(i)}}{r^T_{(i-1)}r_{(i-1)}}.
 ```
 
-The first equality is obtained by using optimal step size $`\alpha_{(i)}`$ in Eq. (5). The second equality results from $`d^T_{(i)}r_{(j)}=r_{(i)}^Tr_{(j)}+\sum_{k=0}^{i-1}\beta_{ik}d_{(k)}^Tr_{(j)}`$, and $`0=r_{(i)}^Tr_{(j)}`$ for $`i<j`$ while $`d_{(i)}^Tr_{(i)}=r_{(i)}^Tr_{(i)}`$ for $`i=j`$.
+The first equality is obtained by using optimal step size $`\alpha_{(i)}`$ in Eq. (5). The second equality results from $`d^T_{(i)}r_{(j)}=r_{(i)}^Tr_{(j)}+\sum_{k=0}^{i-1}\beta_{ik}d_{(k)}^Tr_{(j)}`$, and $`0=r_{(i)}^Tr_{(j)}`$ for $`i\lt j`$ while $`d_{(i)}^Tr_{(i)}=r_{(i)}^Tr_{(i)}`$ for $`i=j`$.
 
 ## The Method Of Conjugate Gradients
 
