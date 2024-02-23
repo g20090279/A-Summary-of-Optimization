@@ -1,6 +1,5 @@
 - **Topics**: Conjugate Gradient Descent Method
 - **Last Revised**: Dec. 27, 2023 
-- **Author**: Zekai Liang (zekai.liang [at] hotmail [dot] com)
 
 ---
 
